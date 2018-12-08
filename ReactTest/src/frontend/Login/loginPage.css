@@ -1,0 +1,98 @@
+.Login {
+    font-weight: bold;
+}
+
+h5 {
+    color: rgb(109, 109, 109);
+}
+
+#LuserName {
+    color: black;
+}
+
+#Lpassword {
+    color: black;
+}
+
+#loginBtn {
+    background-color: rgb(91, 113, 173);
+    border:none;
+    position: relative;
+    left: 250px;
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+}
+
+/*Button {
+    background-color: rgb(91, 113, 173);
+    border:none;
+    color: white;
+}*/
+
+#username {
+    width: 350px;
+}
+
+#password {
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    float:right;
+}
+a:hover, a:active, a.active {
+    color: black;
+}
+
+form {
+    position: relative;
+    top: 200px;
+    left: 450px;
+    width: 500px;
+}
+
+#password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#signup {
+    margin-top: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: rgb(105, 100, 100);
+}
+
+#logo {
+    position: relative;
+    width: 300px;
+    top: 150px;
+    left: 475px;
+}
+
+#userIco {
+    position: relative;
+    top:77px;
+    left: 775px;
+    color: grey;
+}
+
+#lockIco {
+    position: relative;
+    top:127px;
+    left: 762px;
+    color: grey;
+}
+
+#motto {
+    position: relative;
+    top: 180px;
+    left: 470px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(105, 100, 100);
+    width: 350px;
+}

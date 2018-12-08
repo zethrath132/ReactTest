@@ -1,0 +1,444 @@
+#displayBox {
+  width: 180px;
+  height: 250px;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  float: middle;
+  position: relative;
+  bottom: 605px;
+  left: 250px;
+  font-size: 12px;
+}
+#chx {
+  height: 13px;
+  width: 0px;
+  /* padding: 0;
+  margin:0; */
+  float: left;
+  display: inline-block;
+  top: -1px;
+}
+#addTo {
+  float: right;
+  margin-right: 8px;
+}
+
+.Products {
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(167, 207, 247), rgb(130, 186, 243)) fixed;
+    height: 80px;
+}
+
+#logo3 {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    top: 15px;
+    left: 10px;
+}
+
+#productSearchDropdown {
+    z-index:15;
+    position: relative;
+    top:15.5px;
+    left: 305px;
+    height: 22px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#productSearch {
+    position: relative;
+    top: 15px;
+    left: 300px;
+    border-radius: 4px;
+    width: 300px;
+}
+
+#productMainDiv {
+    background-color: white;
+    height: auto;
+}
+
+#prodP {
+    position: relative;
+    left: 1080px;
+    color: rgb(105, 100, 100);
+    width:70px;
+    bottom: 25px;
+    margin: 0px;
+}
+
+#proPic {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    bottom: 3.5px;
+    right: 8px;
+}
+
+#userBtn {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    bottom: 65px;
+    left: 1185px;
+}
+
+#prodProj {
+    border: 0.5px solid grey;
+    width: 250px;
+}
+
+#prodSave{
+    height: 25px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top:10px;
+    line-height: 1.5px;
+    border: none;
+    background-color: grey;
+    color:white;
+}
+
+#prodClear{
+    height: 25px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top:10px;
+    line-height: 1.5px;
+    border: none;
+    background-color: grey;
+    color:white;
+}
+
+#searchLab {
+    margin-left: 20px;
+}
+
+#accordions {
+    border: 0.5px solid grey;
+    width: 250px;
+    height: 536.5px;
+}
+
+#prodBtn {
+    width: 124.5px;
+    border: 0.1px solid grey;
+    background-color: rgb(91, 113, 173);
+    color: white;
+}
+
+#projBtn {
+    width: 124px;
+    border: 0.1px solid grey;
+    background-color:white;
+}
+
+#ptcaret{
+    margin-left: 130px;
+}
+#tscaret{
+    margin-left: 57px;
+}
+#btcaret{
+    margin-left: 180px;
+}
+#pscaret{
+    margin-left: 117px;
+}
+#certcaret{
+    margin-left: 129px;
+}
+
+.open {
+    transform: rotate(90deg);
+}
+
+#ProdTypeBtn {
+    text-align: left;
+    width:249px;
+    border:none;
+}
+
+#prodTypeAcc {
+    background-color: white;
+    width: 248.5px;
+}
+#ptLab {
+    margin-left: 5px;
+    font-size: 14px;
+}
+#dash{
+    color:grey;
+}
+#lowYear {
+    width: 60px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 25px;
+
+}
+#highYear {
+    width: 60px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.hide{
+    display:none;
+}
+
+.fa-exchange-alt {
+    transform: rotate(90deg);
+    color: grey;
+    font-size: 12px;
+    font-stretch: wider;
+    margin-left: 5px;
+}
+#techSpecBtn {
+    text-align: left;
+    width:249px;
+    border:none;
+}
+#airflow {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#cfm {
+    font-size:12px;
+    margin-left: 5px;
+}
+#airMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#airMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#airMinR{
+    width: 66px;
+}
+#airMaxR{
+    width: 66px;
+}
+
+#maxpower {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#watts {
+    font-size:12px;
+    margin-left: 5px;
+}
+#mpMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#mpMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#mpMinR{
+    width: 66px;
+}
+#mpMaxR{
+    width: 66px;
+}
+
+#maxsound {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#dba {
+    font-size:12px;
+    margin-left: 5px;
+}
+#msMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#msMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#msMinR{
+    width: 66px;
+}
+#msMaxR{
+    width: 66px;
+}
+
+#fansweep {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#inches {
+    font-size:12px;
+    margin-left: 5px;
+}
+#fsMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#fsMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#fsMinR{
+    width: 66px;
+}
+#fsMaxR{
+    width: 66px;
+}
+
+#BrandTypeBtn {
+    text-align: left;
+    width:249px;
+    border:none;
+}
+
+#PastSlctBtn {
+    text-align: left;
+    width:249px;
+    border:none;
+}
+
+#firm {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#fMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#fMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#fMinR{
+    width: 66px;
+}
+#fMaxR{
+    width: 66px;
+}
+
+#global {
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#gMinT {
+    height:20px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:3px;
+}
+#gMaxT{
+    height:20px;
+    width: 50px;
+    margin-left:3px;
+}
+#gMinR{
+    width: 66px;
+}
+#gMaxR{
+    width: 66px;
+}
+
+#CertificationsBtn {
+    text-align: left;
+    width:249px;
+    border:none;
+}
+
+#searchIco {
+    position: relative;
+    top:15px;
+    left: 280px;
+    color: grey;
+}
+#serCaret {
+    position: relative;
+    top:15px;
+    left: 250px;
+    color: grey;
+}
+
+#logoutDiv {
+    position: relative;
+    bottom:590px;
+    background-color: rgb(136, 190, 245);
+    width: 200px;
+    height: 70px;
+    float:right;
+}
+
+#logQ{
+    position:relative;
+    margin-top: 10px;
+    margin-bottom:0px;
+    margin-left: 135px;
+    width:58px;
+    font-weight: bold;
+    color: rgb(105, 100, 100);
+}
+
+#logoutBtn {
+    background-color: rgb(91, 113, 173);
+    border:none;
+    position: relative;
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+    float: right;
+    margin-top:5px;
+    margin-right: 5px;
+}
+
+#MechanicalHVAC {
+    position: relative;
+    bottom: 579px;
+    width: 200px;
+    margin-left: 265px;
+}
+#Mechanical {
+    font-weight:bold;
+    color: #1F4F7B;
+}
+#greaterThan {
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px;
+    color: #1F4F7B;
+}
+#HVAC {
+    font-weight:bold;
+    color:grey;
+}

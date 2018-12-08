@@ -34,6 +34,8 @@ class DisplayPage extends Component {
       }
   }
 
+
+
   ptCaret() {
       $('#ptcaret').toggleClass('open');
       this.ptAcc();
@@ -201,7 +203,6 @@ class DisplayPage extends Component {
 
                    </div>
                    <div id="loginDiv">
-                       <p id="logQ">Logout?</p>
                        <button id="logoutBtn" onClick={()=>{this.logout()}}>Logout</button>
                    </div>
               </div>
